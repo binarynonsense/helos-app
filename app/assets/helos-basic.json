@@ -1,0 +1,79 @@
+[
+  {
+    "key": "1",
+    "title": "pwd",
+    "body": "Print the name of the current directory."
+  },
+
+  {
+    "key": "2",
+    "title": "dir",
+    "body": "List the contents of the current directory."
+  },
+
+  {
+    "key": "3",
+    "title": "c:",
+    "body": "Change the current directory to the root of the 'c:' hard drive."
+  },
+
+  {
+    "key": "4",
+    "title": "cd",
+    "body": "cd <path>\n\nChange the current directory. The path can be absolute or relative (e.g. if your current path is 'c:' and you want to change it to 'c:\\system' you can type 'cd c:\\system' or just 'cd system').\n\ncd ..\n\nMove the current directory one level up the directory tree."
+  },
+
+  {
+    "key": "5",
+    "title": "whoami",
+    "body": "Prints the current user."
+  },
+
+  {
+    "key": "6",
+    "title": "login",
+    "body": "login <user> <password>\n\nLog as a different user, where 'user' is either 'root' or 'guest' and 'password' is the password corresponding to that account.\n\nThe default passwords for the root and guest accounts are 'root' and 'guest' respectively."
+  },
+
+  {
+    "key": "7",
+    "title": "mail",
+    "body": "Open the logged user's email reader."
+  },
+
+  {
+    "key": "8",
+    "title": "gui",
+    "body": "Open the graphical user interface."
+  },
+
+  {
+    "key": "9",
+    "title": "a:",
+    "body": "Change the current directory to the root of the 'a:' disk drive."
+  },
+
+  {
+    "key": "10",
+    "title": "netmap",
+    "body": "Print a list of IPs for all the devices sharing the same network as yours.\n\nNOTE: Depending of the version of netmap and their security settings some devices may be hidden from the list."
+  },
+
+  {
+    "key": "11",
+    "title": "read",
+    "body": "read <path>\n\nDisplay the contents of the text file in the path provided. The file extension (usually .txt but other extensions are sometimes used) must be included in the path."
+  },
+
+  {
+    "key": "12",
+    "title": "telnet",
+    "body": "telnet <ip>\n\nEstablish a telnet connection to the machine with the provided ip.\n\ntelnet <ip> <port>\n\nSame as above but specifying the port number (23 by default)."
+  },
+
+  {
+    "key": "13",
+    "title": "quit",
+    "body": "Close a telnet session."
+  }
+]

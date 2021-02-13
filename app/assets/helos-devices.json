@@ -1,0 +1,19 @@
+[
+  {
+    "key": "1",
+    "title": "scissor lift",
+    "body": "move <param>\n\nTry moving the lift in the given direction (it will move a set amount, defined by the manufacturer settings). <param> can be one of the following:\n\nu - up\nd - down\nf - forwards\nb - backwards\n\nIf the lift detects an obstacle in its projected path, or it has reached its limit in that direction, the command will be ignored."
+  },
+
+  {
+    "key": "2",
+    "title": "laser tripwires",
+    "body": "enable\n\nTurn on the tripwires.\n\ndisable\n\nTurn off the tripwires."
+  },
+
+  {
+    "key": "3",
+    "title": "sentry turret",
+    "body": "set <param>\n\nTry changing the settings of the turret. <param> can be one of the following:\n\non - turn on\noff - turn off\n\nNOTE: turning off a turret puts it in stand-by mode, it will be turned on automatically if alert messages are received (e.g. a laser tripwire was obstructed by an unauthorized individual)."
+  }
+]
