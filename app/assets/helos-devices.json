@@ -15,5 +15,11 @@
     "key": "3",
     "title": "sentry turret",
     "body": "set <param>\n\nTry changing the settings of the turret. <param> can be one of the following:\n\non - turn on\noff - turn off\n\nNOTE: turning off a turret puts it in stand-by mode, it will be turned on automatically if alert messages are received (e.g. a laser tripwire was obstructed by an unauthorized individual)."
+  },
+
+  {
+    "key": "4",
+    "title": "door",
+    "body": "unlock\n\nUnlock the door."
   }
 ]

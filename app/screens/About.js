@@ -38,10 +38,10 @@ export default function About() {
             info the player needs available in documents and hints placed around
             the levels, I thought it would be fun to make this app to have an
             extra, quick way to check some of the basic commands that can be
-            used in the game's fictional computers' operating system (HELOS).
+            used in the game's fictional computers' operating system (HEL OS).
             {'\n'}
             {'\n'}NOTE: Some of the commands may not be available by default,
-            depending on the version of HELOS installed in the computer.{'\n'}
+            depending on the version of HEL OS installed in the computer.{'\n'}
             {'\n'}
             Hope you find it useful,{'\n'}
             {'\n'}Álvaro{'\n'}www.binarynonsense.com
