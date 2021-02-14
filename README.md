@@ -14,7 +14,7 @@ You can find more info about the app and a downloadable android version [here](h
 Android: If you want to build a release version, you need to copy your release.keystore file to /android/app
 and create a release.keystore.properties file in /android with the required information (see the release.keystore.properties.sample file for an example)
 
-IOS: I don't own any Apple devices so I haven't built or tested an IOS version.
+iOS: I don't own any Apple devices so I haven't built or tested an iOS version.
 
 ## License
 
