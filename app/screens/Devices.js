@@ -5,22 +5,18 @@ import {
   Text,
   TouchableOpacity,
   FlatList,
-  Modal,
 } from 'react-native';
 import {globalStyles} from '../styles/global';
-// import { MaterialIcons } from '@expo/vector-icons';
 import Card from '../shared/Card';
-
 import data from '../assets/helos-devices.json';
 
 export default Devices = ({navigation}) => {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [reviews, setReviews] = useState(data);
-
+  const [commandsInfo, setCommandsInfo] = useState(data);
+  
   return (
     <View style={globalStyles.container}>
       <FlatList
-        data={reviews.sort((a, b) => a.title.localeCompare(b.title))}
+        data={commandsInfo.sort((a, b) => a.title.localeCompare(b.title))}
         renderItem={({item}) => (
           <TouchableOpacity
             onPress={() => navigation.navigate('Details', item)}>

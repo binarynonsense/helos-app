@@ -1,30 +1,13 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image, ImageBackground} from 'react-native';
-// import {MaterialIcons} from '@expo/vector-icons';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import {StyleSheet, Text, View} from 'react-native';
 
 export default function Header({title, navigation}) {
-  const openMenu = () => {
-    navigation.openDrawer();
-  };
-
   return (
-    // <ImageBackground
-    //   source={require('../assets/game_bg.png')}
-    //   style={styles.header}>
     <View style={styles.header}>
-      {/* <View style={styles.icon}>
-        <Icon name="menu" size={28} onPress={openMenu} />
-      </View> */}
       <View style={styles.headerTitle}>
-        {/* <Image
-          source={require('../assets/heart_logo.png')}
-          style={styles.headerImage}
-        /> */}
         <Text style={styles.headerText}>{title}</Text>
       </View>
     </View>
-    // </ImageBackground>
   );
 }
 

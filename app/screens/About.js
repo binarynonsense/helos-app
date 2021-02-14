@@ -1,8 +1,6 @@
 import React from 'react';
-import {StyleSheet, View, Text, Image, ScrollView} from 'react-native';
+import {View, Text, Image, ScrollView} from 'react-native';
 import {globalStyles} from '../styles/global';
-import Card from '../shared/Card';
-import {BorderlessButton} from 'react-native-gesture-handler';
 
 export default function About() {
   return (
@@ -20,7 +18,6 @@ export default function About() {
             marginBottom: 50,
             alignSelf: 'center',
           }}
-          // style={styles.headerImage}
         />
         <Text
           style={{

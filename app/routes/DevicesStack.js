@@ -1,10 +1,10 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-
 import Devices from '../screens/Devices';
 import Details from '../screens/Details';
 
 const Stack = createStackNavigator();
+
 export default DevicesStack = ({navigation}) => {
   return (
     <Stack.Navigator

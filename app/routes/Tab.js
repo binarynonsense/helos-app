@@ -1,9 +1,7 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-
 import Icon from 'react-native-vector-icons/FontAwesome5';
-
 import BasicStack from './BasicStack';
 import DevicesStack from './DevicesStack';
 import AboutStack from './AboutStack';
@@ -25,8 +23,6 @@ export default function App() {
             } else if (route.name === 'About') {
               iconName = focused ? 'info-circle' : 'info-circle';
             }
-
-            // You can return any component that you like here!
             return <Icon name={iconName} size={size} color={color} />;
           },
         })}
